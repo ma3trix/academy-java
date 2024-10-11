@@ -1,4 +1,28 @@
+# Ignore compiled class files
+*.class
 
+# Ignore build directories
+bin/
+build/
+out/
+
+# Ignore Gradle files
+.gradle/
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Ignore IDE specific files
+.idea/
+*.iml
+*.class
+
+# Ignore logs
+*.log
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+/bin/
 # Ignore compiled class files
 *.class
 
