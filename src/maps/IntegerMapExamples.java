@@ -1,6 +1,7 @@
 package maps;
 
 
+import java.util.Iterator;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -38,7 +39,7 @@ public class IntegerMapExamples {
 		map.clear();
 		
 		
-		System.out.println("c =" + map);
+		System.out.println("Cleared map =" + map);
 		
 
 		for (Integer key: map.keySet()) {
@@ -49,7 +50,13 @@ public class IntegerMapExamples {
 //		for (Map.Entry<Integer, String>) entry: map. entrySet() {{
 //			System.out.println("Running..");
 //		}
-
+		
+		Iterator<Integer> ite = map.keySet().iterator();
+		
+		while (ite.hasNext()) {
+			Integer key = ite.next();
+			System.out.println(key + " ");
+		}
 	}
 
 }
