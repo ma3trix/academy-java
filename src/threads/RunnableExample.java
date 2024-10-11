@@ -1,9 +1,13 @@
 //package threads_runnable;
 //
-//package threads;
+package threads;
 //
 //
 //import threads.MyThread;
+
+import threads.MyThred;
+
+
 
 class MyThred implements Runnable {
 
